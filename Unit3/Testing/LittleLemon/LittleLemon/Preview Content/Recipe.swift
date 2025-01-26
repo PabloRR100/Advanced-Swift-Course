@@ -14,10 +14,4 @@ struct Recipe {
     }
 }
 
-func addRecipe() {
-    var recipe = Recipe()
-    recipe.incrementOrderCount()
-    print(recipe.orderCount)
-}
-
-
+ 
